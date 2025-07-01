@@ -172,3 +172,6 @@ C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\Swas
 C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\Data\seed_data.json
 C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\Npgsql.dll
+C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Usuario\Desktop\dev\APISuper\ComparadorPreciosAPI\obj\Debug\net9.0\ComparadorPreciosAPI.sourcelink.json
