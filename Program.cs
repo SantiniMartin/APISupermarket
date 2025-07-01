@@ -20,8 +20,9 @@ var app = builder.Build();
 // Ejecutar el seed de la base de datos
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    await ComparadorPreciosAPI.Data.DatabaseSeeder.SeedDatabaseAsync(services);
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+    await DatabaseSeeder.SeedDatabaseAsync(scope.ServiceProvider);
 }
 
 builder.Services.AddDbContext<AppDbContext>(options =>
